@@ -180,27 +180,24 @@
     gap: 2rem;
   }
 
-  .feature {
-    background: white;
-    color: var(--text-color);
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: var(--card-shadow);
-    transition: transform 0.3s;
-  }
-  
-  .feature p {
-    color: #333; /* <<< THE IMPORTANT FIX >>> */
-  }
+.feature {
+  background: white;
+  color: #333 !important;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s;
+}
 
-  .feature:hover {
-    transform: translateY(-5px);
-  }
+.feature p {
+  color: #333 !important;
+}
 
-  .feature h3 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-  }
+.feature h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
 
   .testimonials, .faq {
     background: white;
