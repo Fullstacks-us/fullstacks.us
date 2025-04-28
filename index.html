@@ -12,18 +12,22 @@
   <script src="https://cdn.jsdelivr.net/npm/@brevo/web-forms/dist/bundle.js"></script>
 
   <style>
-    /* Only adding logo fix CSS here */
+    /* Logo sizing fix */
     .logo {
       max-width: 200px;
       height: auto;
       display: block;
       margin: 0 auto;
     }
-
     .nav-logo img {
       max-height: 50px;
       width: auto;
       display: block;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
     }
   </style>
 </head>
@@ -181,7 +185,7 @@
       }
     });
 
-    // Dark mode
+    // Dark mode toggle
     const themeToggle = document.querySelector('.theme-toggle');
     const themeIcon = document.querySelector('.theme-icon');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
@@ -209,4 +213,3 @@
 
 </body>
 </html>
- 
