@@ -9,11 +9,10 @@
   <title>FullStacks.us - Connecting Companies with Vetted Talent</title>
 
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-
   <script src="https://cdn.jsdelivr.net/npm/@brevo/web-forms/dist/bundle.js"></script>
 
   <style>
-    /* Logo Sizing Fix */
+    /* Only adding logo fix CSS here */
     .logo {
       max-width: 200px;
       height: auto;
@@ -22,219 +21,9 @@
     }
 
     .nav-logo img {
-      max-height: 40px;
+      max-height: 50px;
       width: auto;
       display: block;
-    }
-
-    /* Mobile Responsiveness */
-    @media (max-width: 768px) {
-      .logo {
-        max-width: 150px;
-      }
-      .nav-logo img {
-        max-height: 30px;
-      }
-    }
-
-    /* Basic Reset */
-    body {
-      margin: 0;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-
-    /* Navigation */
-    .nav-container {
-      background: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .nav {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-    }
-
-    .nav-link {
-      color: #333;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
-
-    .nav-link:hover {
-      color: #007bff;
-    }
-
-    .nav-cta {
-      background: #007bff;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s ease, transform 0.3s ease;
-    }
-
-    .nav-cta:hover {
-      background: #0056b3;
-      transform: translateY(-2px);
-    }
-
-    .mobile-menu-btn {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-    }
-
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-        flex-direction: column;
-        background: white;
-        width: 100%;
-        padding: 1rem;
-      }
-      .nav-links.active {
-        display: flex;
-      }
-      .mobile-menu-btn {
-        display: block;
-      }
-    }
-
-    /* Header */
-    header {
-      background: linear-gradient(135deg, #007bff, #0056b3);
-      color: white;
-      text-align: center;
-      padding: 4rem 1rem;
-    }
-
-    .hero-text {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      font-weight: bold;
-    }
-
-    .hero-subtitle {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-
-    .cta-buttons {
-      margin-top: 2rem;
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-    }
-
-    .btn {
-      padding: 1rem 2rem;
-      border-radius: 8px;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: all 0.3s ease;
-    }
-
-    .btn-primary {
-      background: white;
-      color: #007bff;
-    }
-
-    .btn-primary:hover {
-      background: #e0e0e0;
-    }
-
-    .btn-secondary {
-      border: 2px solid white;
-      color: white;
-      background: transparent;
-    }
-
-    .btn-secondary:hover {
-      background: white;
-      color: #007bff;
-    }
-
-    /* Sections */
-    section {
-      padding: 4rem 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .features, .testimonial-grid, .token-details {
-      display: grid;
-      gap: 2rem;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    }
-
-    .feature, .testimonial, .faq-item, .token-feature {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    }
-
-    .testimonial-quote {
-      font-style: italic;
-    }
-
-    .testimonial-author {
-      margin-top: 1rem;
-      font-weight: bold;
-      color: #007bff;
-    }
-
-    /* Subscribe */
-    .subscribe {
-      background: linear-gradient(135deg, #2c3e50, #3498db);
-      color: white;
-      text-align: center;
-    }
-
-    /* FAQ */
-    .faq h2 {
-      text-align: center;
-    }
-
-    /* Theme toggle */
-    .theme-toggle {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      width: 50px;
-      height: 50px;
-      background: #007bff;
-      border-radius: 50%;
-      color: white;
-      border: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: all 0.3s ease;
-    }
-
-    .theme-toggle:hover {
-      transform: translateY(-2px);
     }
   </style>
 </head>
@@ -350,7 +139,26 @@
     <div class="container">
       <h2>Stay Updated</h2>
       <p>Join our community to receive the latest updates and opportunities.</p>
-      <!-- Newsletter form would be inserted here -->
+      <!-- Brevo Newsletter Form -->
+      <div class="sib-form" style="text-align: center;">
+        <div id="sib-form-container" class="sib-form-container">
+          <div id="sib-container" class="sib-container--large sib-container--vertical">
+            <form id="sib-form" method="POST" action="https://[YOUR-BREVO-FORM-ENDPOINT]" data-type="subscription">
+              <div style="padding: 8px 0;">
+                <div class="sib-input sib-form-block">
+                  <div class="form__label-row">
+                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Your email address" data-required="true" required style="padding: 1rem; width: 300px; border-radius: 8px; border: none;">
+                  </div>
+                  <button class="btn btn-primary" style="margin-top: 1rem; border: none; cursor: pointer;" form="sib-form" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- End Brevo Form -->
     </div>
   </section>
 
@@ -359,7 +167,45 @@
   </button>
 
   <script>
-    // JS for theme toggle and mobile nav
+    // Mobile menu toggle
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav')) {
+        navLinks.classList.remove('active');
+      }
+    });
+
+    // Dark mode
+    const themeToggle = document.querySelector('.theme-toggle');
+    const themeIcon = document.querySelector('.theme-icon');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+
+    const savedTheme = localStorage.getItem('theme') || (prefersDarkScheme.matches ? 'dark' : 'light');
+    setTheme(savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
+
+    prefersDarkScheme.addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        setTheme(e.matches ? 'dark' : 'light');
+      }
+    });
   </script>
+
 </body>
 </html>
