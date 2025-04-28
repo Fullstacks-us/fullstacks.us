@@ -180,23 +180,26 @@
     gap: 2rem;
   }
 
+/* Generic feature style */
 .feature {
   background: white;
-  color: #333 !important;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: var(--card-shadow);
   transition: transform 0.3s;
 }
 
-.feature p {
+/* Only force black text inside the Features section cards */
+#features .feature, #features .feature * {
   color: #333 !important;
 }
 
+/* Titles stay blue */
 .feature h3 {
   color: var(--primary-color);
   margin-bottom: 1rem;
 }
+
 
 
   .testimonials, .faq {
