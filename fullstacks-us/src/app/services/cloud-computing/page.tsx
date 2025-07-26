@@ -69,7 +69,7 @@ export default function CloudComputing() {
 
                     <div className="cta-section">
                       <h4>Ready to Scale in the Cloud?</h4>
-                      <p>Let's build a robust cloud infrastructure that grows with your business.</p>
+                      <p>Let&apos;s build a robust cloud infrastructure that grows with your business.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

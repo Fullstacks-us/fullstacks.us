@@ -69,7 +69,7 @@ export default function ArtificialIntelligence() {
 
                     <div className="cta-section">
                       <h4>Ready to Harness AI?</h4>
-                      <p>Let's build intelligent solutions that transform your business with the power of AI.</p>
+                      <p>Let&apos;s build intelligent solutions that transform your business with the power of AI.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

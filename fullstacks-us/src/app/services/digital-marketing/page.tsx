@@ -32,7 +32,7 @@ export default function DigitalMarketing() {
 
                   <h3>What We Offer</h3>
                   <ul>
-                    <li><strong>Search Engine Optimization (SEO):</strong> Improve your website's visibility in search results</li>
+                    <li><strong>Search Engine Optimization (SEO):</strong> Improve your website&apos;s visibility in search results</li>
                     <li><strong>Pay-Per-Click (PPC):</strong> Targeted advertising campaigns on Google, Facebook, and other platforms</li>
                     <li><strong>Social Media Marketing:</strong> Build brand presence and engage with your audience</li>
                     <li><strong>Content Marketing:</strong> Create valuable content that attracts and converts customers</li>
@@ -68,7 +68,7 @@ export default function DigitalMarketing() {
 
                     <div className="cta-section">
                       <h4>Ready to Grow Your Business?</h4>
-                      <p>Let's create a digital marketing strategy that drives real results for your business.</p>
+                      <p>Let&apos;s create a digital marketing strategy that drives real results for your business.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

@@ -69,7 +69,7 @@ export default function BlockchainDevelopment() {
 
                     <div className="cta-section">
                       <h4>Ready to Build on Blockchain?</h4>
-                      <p>Let's create innovative blockchain solutions that transform your business.</p>
+                      <p>Let&apos;s create innovative blockchain solutions that transform your business.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

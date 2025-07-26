@@ -70,7 +70,7 @@ export default function WebAppDevelopment() {
 
                     <div className="cta-section">
                       <h4>Ready to Start Your Project?</h4>
-                      <p>Let's discuss your web application needs and create something amazing together.</p>
+                      <p>Let&apos;s discuss your web application needs and create something amazing together.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

@@ -68,7 +68,7 @@ export default function MobileAppDevelopment() {
 
                     <div className="cta-section">
                       <h4>Ready to Build Your App?</h4>
-                      <p>Let's create a mobile app that your users will love and that drives your business forward.</p>
+                      <p>Let&apos;s create a mobile app that your users will love and that drives your business forward.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

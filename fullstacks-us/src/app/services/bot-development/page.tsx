@@ -69,7 +69,7 @@ export default function BotDevelopment() {
 
                     <div className="cta-section">
                       <h4>Ready to Automate?</h4>
-                      <p>Let's build intelligent bots that streamline your operations and enhance customer experience.</p>
+                      <p>Let&apos;s build intelligent bots that streamline your operations and enhance customer experience.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>

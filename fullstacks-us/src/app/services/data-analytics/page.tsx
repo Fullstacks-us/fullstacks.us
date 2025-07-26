@@ -69,7 +69,7 @@ export default function DataAnalytics() {
 
                     <div className="cta-section">
                       <h4>Ready to Unlock Your Data?</h4>
-                      <p>Let's transform your data into actionable insights that drive business growth.</p>
+                      <p>Let&apos;s transform your data into actionable insights that drive business growth.</p>
                       <Link href="/#contact" className="btn btn-primary">Get Started</Link>
                     </div>
                   </div>
