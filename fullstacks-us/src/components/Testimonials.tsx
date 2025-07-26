@@ -61,7 +61,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what startup leaders say about working with our Fractional CTO services.
+            Don&apos;t just take our word for it. Here&apos;s what startup leaders say about working with our Fractional CTO services.
           </p>
         </div>
 
