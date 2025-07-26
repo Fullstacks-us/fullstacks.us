@@ -4,15 +4,14 @@ export default function Services() {
   return (
     <div className="pt-5 pb-5" style={{ backgroundColor: '#f2f2f2' }}>
       <div className="container">
+        <div className="section-head col-sm-12" id="service">
+          <h1>Our Services</h1>
+          <p style={{ color: '#333', fontSize: '1.1rem', lineHeight: '1.6' }}>
+            We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
+          </p>
+        </div>
         <div className="row">
-          <div className="section-head col-sm-12" id="service">
-            <h1>Our Services</h1>
-            <p style={{ color: '#333', fontSize: '1.1rem', lineHeight: '1.6' }}>
-              We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
-            </p>
-          </div>
-          
-          {/* Row 1 */}
+          {/* All 9 service cards here, unchanged */}
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/web-app-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -26,7 +25,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/mobile-app-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -40,7 +38,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/digital-marketing" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -54,8 +51,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
-          {/* Row 2 */}
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/blockchain-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -69,7 +64,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/bot-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -83,7 +77,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/artificial-intelligence" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -97,8 +90,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
-          {/* Row 3 */}
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/cloud-computing" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -112,7 +103,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/cybersecurity" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
@@ -126,7 +116,6 @@ export default function Services() {
               </div>
             </Link>
           </div>
-          
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/data-analytics" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
