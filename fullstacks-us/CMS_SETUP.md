@@ -9,12 +9,7 @@ This guide will help you set up and use the Supabase CMS for your fullstacks.us 
 Create a `.env.local` file in the `fullstacks-us` directory with your Supabase credentials:
 
 ```env
-# Supabase Configuration
-SUPABASE_URL="https://uwqnwujsuekxdcpbozzf.supabase.co"
-SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cW53dWpzdWVreGRjcGJvenpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM1MTEwMDcsImV4cCI6MjA2OTA4NzAwN30.HHT9-KFfVEh1WCZsck-LGtHdNG-UsQhylI6T6r-okqE"
-SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cW53dWpzdWVreGRjcGJvenpmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MzUxMTAwNywiZXhwIjoyMDY5MDg3MDA3fQ.6Iw1jJWcnCGdl9ihyuy7ezoMDgLFGT9JlJvapcwWAgo"
-NEXT_PUBLIC_SUPABASE_URL="https://uwqnwujsuekxdcpbozzf.supabase.co"
-NEXT_PUBLIC_SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV3cW53dWpzdWVreGRjcGJvenpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM1MTEwMDcsImV4cCI6MjA2OTA4NzAwN30.HHT9-KFfVEh1WCZsck-LGtHdNG-UsQhylI6T6r-okqE"
+
 ```
 
 ### 2. Database Setup

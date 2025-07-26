@@ -1,5 +1,6 @@
 import { supabase } from '../../lib/supabase'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default async function BlogPage() {
   const { data: posts } = await supabase
@@ -22,9 +23,11 @@ export default async function BlogPage() {
               <article key={post.id} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                 {post.featured_image && (
                   <div className="aspect-w-16 aspect-h-9">
-                    <img
+                    <Image
                       src={post.featured_image}
                       alt={post.title}
+                      width={400}
+                      height={200}
                       className="w-full h-48 object-cover"
                     />
                   </div>

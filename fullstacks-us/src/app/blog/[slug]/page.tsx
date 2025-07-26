@@ -1,18 +1,20 @@
 import { supabase } from '../../../lib/supabase'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params
   const { data: post } = await supabase
     .from('posts')
     .select('*, author:authors(*)')
-    .eq('slug', params.slug)
+    .eq('slug', slug)
     .eq('status', 'published')
     .single()
 
@@ -34,9 +36,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <article className="bg-white rounded-lg shadow-sm overflow-hidden">
           {post.featured_image && (
             <div className="w-full h-64 md:h-96">
-              <img
+              <Image
                 src={post.featured_image}
                 alt={post.title}
+                width={800}
+                height={400}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -84,9 +88,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
             <div className="flex items-center">
               {post.author.avatar_url && (
-                <img
+                <Image
                   src={post.author.avatar_url}
                   alt={post.author.name}
+                  width={64}
+                  height={64}
                   className="w-16 h-16 rounded-full mr-4"
                 />
               )}
