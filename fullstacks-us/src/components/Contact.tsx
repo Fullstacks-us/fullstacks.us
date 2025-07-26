@@ -20,7 +20,7 @@ export default function Contact() {
       <div className="contact-in">
         <div className="contact-map">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25436351647!2d-74.11976404999999!3d40.6976634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1644684739958!5m2!1sen!2sus" 
             width="100%" 
             height="auto" 
             style={{ border: 0 }} 
@@ -28,42 +28,17 @@ export default function Contact() {
             loading="lazy"
           ></iframe>
         </div>
+        
         <div className="contact-form">
-          {isSubmitted ? (
-            <div style={{ textAlign: 'center', padding: '2rem' }}>
-              <h3 style={{ color: '#00bfff', marginBottom: '1rem' }}>Thank you!</h3>
-              <p style={{ color: '#ccc' }}>Your message has been sent successfully. We&apos;ll get back to you soon!</p>
-              <button 
-                onClick={() => setIsSubmitted(false)}
-                className="btn"
-                style={{ marginTop: '1rem' }}
-              >
-                Send Another Message
-              </button>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit}>
-              <input type="text" name="name" placeholder="Name" className="contact-form-txt" required />
-              <input 
-                type="tel" 
-                id="phone" 
-                name="phone" 
-                pattern="[0-9]{10}" 
-                required 
-                placeholder="Contact number" 
-                maxLength={10} 
-                className="contact-form-phone" 
-              />
-              <input type="email" name="email" placeholder="Email" className="contact-form-email" required />
-              <textarea 
-                placeholder="Your Message" 
-                name="message" 
-                className="contact-form-txtarea" 
-                required
-              ></textarea>
-              <input type="submit" value="Submit" name="submit" className="contact-form-btn" />
-            </form>
-          )}
+          <form onSubmit={handleSubmit}>
+            <input type="text" placeholder="Name" className="contact-form-txt" required />
+            <input type="tel" placeholder="Contact number" className="contact-form-phone" required />
+            <input type="email" placeholder="Email" className="contact-form-email" required />
+            <textarea placeholder="Your Message" className="contact-form-txtarea" required></textarea>
+            <button type="submit" className="contact-form-btn">
+              {isSubmitted ? 'Message Sent!' : 'Submit'}
+            </button>
+          </form>
         </div>
       </div>
     </>
