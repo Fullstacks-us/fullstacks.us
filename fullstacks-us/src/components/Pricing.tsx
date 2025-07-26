@@ -181,7 +181,7 @@ export default function Pricing() {
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Do you work with remote teams?</h4>
-                <p className="text-gray-600">Absolutely! We're experienced in working with distributed teams across different time zones.</p>
+                <p className="text-gray-600">Absolutely! We&apos;re experienced in working with distributed teams across different time zones.</p>
               </div>
             </div>
             <div className="space-y-6">
