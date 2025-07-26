@@ -4,25 +4,23 @@ export default function Portfolio() {
   return (
     <div className="pt-5 pb-5 portfolio">
       <div className="container">
-        <div className="row">
-          <div className="section-head-1 col-sm-12" style={{ textAlign: 'center' }}>
-            <h4 style={{ marginTop: '-5rem' }} id="portfolio">
-              <span>Our</span> Projects
-            </h4>
-            <p>
-              The objective of Fullstacks US is to enable a large number of youth to take up <br />
-              industry-relevant skill training that will help them<br /> in securing a better livelihood.
-            </p>
-          </div>
+        {/* Header section - separate from grid */}
+        <div className="section-head-1 col-sm-12" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+          <h4 style={{ marginTop: '-5rem' }} id="portfolio">
+            <span>Our</span> Projects
+          </h4>
+          <p>
+            The objective of Fullstacks US is to enable a large number of youth to take up <br />
+            industry-relevant skill training that will help them<br /> in securing a better livelihood.
+          </p>
         </div>
         
+        {/* Portfolio grid - 2 rows of 3 items each */}
         <div className="row">
           <div className="col-lg-4 col-sm-6">
             <a href="https://warbot.cloud" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
-                <span className="icon feature_box_col_four">
-                  <Image className="project-img" src="/images/warbot.jpg" alt="WarBot" width={300} height={200} />
-                </span>
+                <Image className="project-img" src="/images/warbot.jpg" alt="WarBot" width={300} height={200} />
                 <h6>WarBot</h6>
                 <p>
                   <b>AI-powered battlefield simulation & strategic testing tool</b><br />
@@ -34,9 +32,7 @@ export default function Portfolio() {
           
           <div className="col-lg-4 col-sm-6">
             <div className="item">
-              <span className="icon feature_box_col_five">
-                <Image className="project-img" src="/images/csuite.jpg" alt="C-Suite" width={300} height={200} />
-              </span>
+              <Image className="project-img" src="/images/csuite.jpg" alt="C-Suite" width={300} height={200} />
               <h6>C-Suite</h6>
               <p>
                 <b>AI executive team for rapid decision-making and planning</b><br />
@@ -48,9 +44,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-sm-6">
             <a href="https://grantforge.cloud" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
-                <span className="icon feature_box_col_six">
-                  <Image className="project-img" src="/images/grantforge.jpg" alt="Grantforge" width={300} height={200} />
-                </span>
+                <Image className="project-img" src="/images/grantforge.jpg" alt="Grantforge" width={300} height={200} />
                 <h6>Grantforge</h6>
                 <p>
                   <b>Automated grant strategy and writing co-pilot</b><br />
@@ -63,9 +57,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-sm-6">
             <a href="https://www.roxysmoxie.xyz" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
-                <span className="icon feature_box_col_one">
-                  <Image className="project-img" src="/images/img1.jpg" alt="Roxysmoxie" width={300} height={200} />
-                </span>
+                <Image className="project-img" src="/images/img1.jpg" alt="Roxysmoxie" width={300} height={200} />
                 <h6>Roxysmoxie</h6>
                 <p>
                   <b>Creative digital platform & portfolio showcase</b><br />
@@ -78,9 +70,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-sm-6">
             <a href="https://salvatoretrust.ink" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
-                <span className="icon feature_box_col_two">
-                  <Image className="project-img" src="/images/img2.jpg" alt="Sweet Tease Bakery Boutique" width={300} height={200} />
-                </span>
+                <Image className="project-img" src="/images/img2.jpg" alt="Sweet Tease Bakery Boutique" width={300} height={200} />
                 <h6>Sweet Tease Bakery Boutique</h6>
                 <p>
                   <b>Artisanal bakery & boutique website design</b><br />
@@ -93,9 +83,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-sm-6">
             <a href="https://kmelody.live" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
-                <span className="icon feature_box_col_three">
-                  <Image className="project-img" src="/images/img3.jpg" alt="K Melody Live" width={300} height={200} />
-                </span>
+                <Image className="project-img" src="/images/img3.jpg" alt="K Melody Live" width={300} height={200} />
                 <h6>K Melody Live</h6>
                 <p>
                   <b>Music platform with VR world exploration</b><br />

@@ -882,29 +882,118 @@ body {
   margin-bottom: 0;
 }
 
+/* Clean Grid Fixes - Remove all previous conflicting rules */
+
+/* Services Grid Fix - Force 3x3 layout */
 .pt-5.pb-5 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 0 -15px !important;
 }
 
 .pt-5.pb-5 .col-lg-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-  padding: 0 15px;
-  margin-bottom: 2rem;
+  flex: 0 0 33.333333% !important;
+  max-width: 33.333333% !important;
+  padding: 0 15px !important;
+  margin-bottom: 2rem !important;
+}
+
+.pt-5.pb-5 .item {
+  margin-bottom: 0 !important;
 }
 
 @media (max-width: 991px) {
   .pt-5.pb-5 .col-lg-4 {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
   }
 }
 
 @media (max-width: 575px) {
   .pt-5.pb-5 .col-lg-4 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
+}
+
+/* Portfolio Grid Fix - Force 3x2 layout */
+.portfolio .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: 0 -15px !important;
+}
+
+.portfolio .col-lg-4 {
+  flex: 0 0 33.333333% !important;
+  max-width: 33.333333% !important;
+  padding: 0 15px !important;
+  margin-bottom: 2rem !important;
+}
+
+.portfolio .item {
+  margin-bottom: 0 !important;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.portfolio .item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.portfolio .project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .item:hover .project-img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 991px) {
+  .portfolio .col-lg-4 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .portfolio .col-lg-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Portfolio image/link fixes */
+.portfolio .item {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.portfolio .item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.portfolio .project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .item:hover .project-img {
+  transform: scale(1.05);
 }
