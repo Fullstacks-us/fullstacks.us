@@ -88,7 +88,7 @@ export default function ArtificialIntelligence() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-crystal-ball"></i>
+                        <i className="fa fa-chart-bar"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Predictive Analytics</h4>
