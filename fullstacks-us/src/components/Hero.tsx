@@ -14,7 +14,7 @@ export default function Hero() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Get enterprise-level technology leadership without the enterprise price tag. 
-                Strategic guidance, technical architecture, and development oversight tailored for your startup's growth.
+                Strategic guidance, technical architecture, and development oversight tailored for your startup&apos;s growth.
               </p>
             </div>
 
