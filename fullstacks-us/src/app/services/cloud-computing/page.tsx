@@ -77,7 +77,7 @@ export default function CloudComputing() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-cogs"></i>
+                        <i className="fas fa-cog"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>DevOps & CI/CD</h4>

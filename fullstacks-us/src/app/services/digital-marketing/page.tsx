@@ -67,7 +67,7 @@ export default function DigitalMarketing() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-ad"></i>
+                        <i className="fas fa-ad"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Pay-Per-Click (PPC)</h4>

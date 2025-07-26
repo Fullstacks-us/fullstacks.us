@@ -29,7 +29,7 @@ export default function Services() {
             <Link href="/services/mobile-app-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
                 <span className="icon feature_box_col_two">
-                  <i className="fa fa-android"></i>
+                  <i className="fab fa-android"></i>
                 </span>
                 <h6>Mobile App Development</h6>
                 <p>
@@ -55,7 +55,7 @@ export default function Services() {
             <Link href="/services/blockchain-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
                 <span className="icon feature_box_col_three">
-                  <i className="fa fa-chain"></i>
+                  <i className="fas fa-link"></i>
                 </span>
                 <h6>Blockchain Development</h6>
                 <p>

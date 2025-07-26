@@ -57,7 +57,7 @@ export default function MobileAppDevelopment() {
                   <div className="services-grid">
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-apple"></i>
+                        <i className="fab fa-apple"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Native iOS Development</h4>
@@ -67,7 +67,7 @@ export default function MobileAppDevelopment() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-android"></i>
+                        <i className="fab fa-android"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Native Android Development</h4>
@@ -107,7 +107,7 @@ export default function MobileAppDevelopment() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-cogs"></i>
+                        <i className="fas fa-cog"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>App Maintenance</h4>
