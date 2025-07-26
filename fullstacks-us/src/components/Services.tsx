@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Services() {
   return (
     <div className="pt-5 pb-5" style={{ backgroundColor: '#f2f2f2' }}>
@@ -51,7 +49,7 @@ export default function Services() {
               </span>
               <h6>Blockchain Development</h6>
               <p>
-                Our Custom Blockchain Development Services Cover Everything From Smart Contracts To Decentralized Applications (DApps). Whether You're Looking To Launch A Token, Build A Secure Wallet, Or Integrate Blockchain Into An Existing System, Our Experts Bring Deep Technical Knowledge And Hands-On Experience To Deliver Robust Solutions.
+                Our Custom Blockchain Development Services Cover Everything From Smart Contracts To Decentralized Applications (DApps). Whether You&apos;re Looking To Launch A Token, Build A Secure Wallet, Or Integrate Blockchain Into An Existing System, Our Experts Bring Deep Technical Knowledge And Hands-On Experience To Deliver Robust Solutions.
               </p>
             </div>
           </div>
