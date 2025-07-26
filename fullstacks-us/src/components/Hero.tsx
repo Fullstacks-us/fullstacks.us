@@ -1,5 +1,3 @@
-import { ArrowRight, CheckCircle } from 'lucide-react';
-
 export default function Hero() {
   return (
     <section id="home" className="home">
