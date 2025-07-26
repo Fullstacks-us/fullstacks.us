@@ -198,10 +198,10 @@ export default function ArtificialIntelligence() {
                   <h4>Why Choose Us?</h4>
                   <ul className="benefits-list">
                     <li><i className="fas fa-check"></i> AI/ML specialists</li>
-                    <li><i className="fa fa-check"></i> Data science expertise</li>
-                    <li><i className="fa fa-check"></i> Scalable solutions</li>
-                    <li><i className="fa fa-check"></i> Continuous learning</li>
-                    <li><i className="fa fa-check"></i> Business-focused approach</li>
+                                          <li><i className="fas fa-check"></i> Data science expertise</li>
+                      <li><i className="fas fa-check"></i> Scalable solutions</li>
+                      <li><i className="fas fa-check"></i> Continuous learning</li>
+                      <li><i className="fas fa-check"></i> Business-focused approach</li>
                   </ul>
                 </div>
 
