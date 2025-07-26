@@ -2,146 +2,68 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">FullStacks US</h3>
-            <p className="text-gray-300 mb-6 max-w-md">
-              Expert Fractional CTO services for startups and growing businesses. 
-              Get strategic technology leadership without the full-time cost.
-            </p>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">info@fullstacks.us</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">(443) 390-7503</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-blue-400 mt-1" />
-                <span className="text-gray-300">
-                  3 Germay Dr, unit 4#2629<br />
-                  Wilmington, DE 19804<br />
-                  United States
-                </span>
+    <div className="footer">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>About Us</h4>
+              <ul>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#">Home</a></li>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#service">Our services</a></li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#portfolio">Portfolio</a></li>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#team">Team</a></li>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#contact">Contact</a></li>
+                <li><i className="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a></li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-contact" style={{ fontSize: '1.5rem' }}>
+              <h4>Contact Us</h4>
+              <p>
+                3 Germay Dr,<br />
+                unit 4#2629<br />
+                Wilmington, DE 19804<br />
+                United States <br />
+                <strong>Phone:</strong> (443) 390-7503<br />
+                <strong>Email:</strong> Info@Fullstacks.us<br />
+              </p>
+
+              <div className="social-links">
+                <a href="https://www.facebook.com/"><i className="ion-logo-facebook"></i></a>
+                <a href="https://twitter.com/login?lang=en"><i className="ion-logo-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i className="ion-logo-linkedin"></i></a>
+                <a href="https://www.instagram.com/"><i className="ion-logo-instagram"></i></a>
+                <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i className="ion-logo-googleplus"></i></a>
               </div>
             </div>
-          </div>
 
-          {/* Services */}
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
-            <ul className="space-y-3">
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Technology Strategy
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Technical Architecture
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Team Building
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Security & Compliance
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Growth & Scaling
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  Vendor Management
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
-            <ul className="space-y-3">
-              <li>
-                <a href="#home" className="text-gray-300 hover:text-white transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="https://calendly.com/fullstacks-us/consultation" 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   className="text-gray-300 hover:text-white transition-colors">
-                  Book Consultation
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 FullStacks US. All rights reserved.
-            </div>
-            
-            {/* Social Links */}
-            <div className="flex space-x-4">
-              <a
-                href="https://linkedin.com/company/fullstacks-us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com/fullstacks_us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://github.com/fullstacks-us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Github className="w-5 h-5" />
-              </a>
+            <div className="col-lg-3 col-md-6 footer-newsletter">
+              <h4>Subscription</h4>
+              <p>With Our Skills Put Together, You Get An Ensemble Capable Of Doing Anything And Everything Your Brand Needs. Subscribe Here To Get Our Latest Updates.</p>
+              <form action="" method="post">
+                <input type="email" name="email" />
+                <input type="submit" value="Subscribe" />
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-6 copyright" style={{ color: '#fff', fontSize: '1.3rem' }}>
+            Copyright &copy; 2021 IT Company Website. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
   );
 } 
