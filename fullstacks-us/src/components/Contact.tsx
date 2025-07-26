@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="contact">
-        <h1 className="heading">get in touch</h1>
+        <h1 className="heading">Get in touch!</h1>
       </section>
       <div className="contact-in">
         <div className="contact-map">
