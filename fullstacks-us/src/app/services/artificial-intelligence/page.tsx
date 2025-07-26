@@ -8,7 +8,7 @@ export default function ArtificialIntelligence() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-icon">
-              <i className="fa fa-brain"></i>
+              <i className="fas fa-brain"></i>
             </div>
             <h1>Artificial Intelligence</h1>
             <p className="hero-subtitle">
@@ -58,7 +58,7 @@ export default function ArtificialIntelligence() {
                   <div className="services-grid">
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-chart-line"></i>
+                        <i className="fas fa-chart-line"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Machine Learning</h4>
@@ -68,7 +68,7 @@ export default function ArtificialIntelligence() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-language"></i>
+                        <i className="fas fa-language"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Natural Language Processing</h4>
@@ -78,7 +78,7 @@ export default function ArtificialIntelligence() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Computer Vision</h4>
@@ -98,7 +98,7 @@ export default function ArtificialIntelligence() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-thumbs-up"></i>
+                        <i className="fas fa-thumbs-up"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>Recommendation Systems</h4>
@@ -108,7 +108,7 @@ export default function ArtificialIntelligence() {
                     
                     <div className="service-item">
                       <div className="service-item-icon">
-                        <i className="fa fa-plug"></i>
+                        <i className="fas fa-plug"></i>
                       </div>
                       <div className="service-item-content">
                         <h4>AI Integration</h4>
@@ -197,7 +197,7 @@ export default function ArtificialIntelligence() {
                 <div className="sidebar-section">
                   <h4>Why Choose Us?</h4>
                   <ul className="benefits-list">
-                    <li><i className="fa fa-check"></i> AI/ML specialists</li>
+                    <li><i className="fas fa-check"></i> AI/ML specialists</li>
                     <li><i className="fa fa-check"></i> Data science expertise</li>
                     <li><i className="fa fa-check"></i> Scalable solutions</li>
                     <li><i className="fa fa-check"></i> Continuous learning</li>

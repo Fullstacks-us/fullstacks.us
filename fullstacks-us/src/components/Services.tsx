@@ -16,7 +16,7 @@ export default function Services() {
             <Link href="/services/web-app-development" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
                 <span className="icon feature_box_col_one">
-                  <i className="fa fa-laptop"></i>
+                  <i className="fas fa-laptop"></i>
                 </span>
                 <h6>Web App Development</h6>
                 <p>
@@ -42,7 +42,7 @@ export default function Services() {
             <Link href="/services/digital-marketing" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item service-card">
                 <span className="icon feature_box_col_three">
-                  <i className="fa fa-magic"></i>
+                  <i className="fas fa-magic"></i>
                 </span>
                 <h6>Digital Marketing</h6>
                 <p>
