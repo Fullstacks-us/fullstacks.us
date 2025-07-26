@@ -207,7 +207,7 @@ export default function WebAppDevelopment() {
 
                 <div className="sidebar-section cta-section">
                   <h4>Ready to Start Your Project?</h4>
-                  <p>Let's discuss your web application needs and create something amazing together.</p>
+                  <p>Let&apos;s discuss your web application needs and create something amazing together.</p>
                   <Link href="/#contact" className="btn btn-primary btn-block">
                     Get Started Today
                   </Link>
