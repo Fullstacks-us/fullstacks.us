@@ -1058,3 +1058,91 @@ body {
     padding: 25px;
   }
 }
+
+/* Main Page Grid Fixes - CSS Grid for Services and Portfolio */
+/* Services Grid - Force 3x3 layout */
+.pt-5.pb-5 .row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
+  margin: 0 !important;
+}
+
+.pt-5.pb-5 .col-lg-4 {
+  width: 100% !important;
+  max-width: none !important;
+  flex: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pt-5.pb-5 .item {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .pt-5.pb-5 .row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .pt-5.pb-5 .row {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Portfolio Grid - Force 3x2 layout */
+.portfolio .row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
+  margin: 0 !important;
+}
+
+.portfolio .col-lg-4 {
+  width: 100% !important;
+  max-width: none !important;
+  flex: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.portfolio .item {
+  margin-bottom: 0 !important;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.portfolio .item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.portfolio .project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .item:hover .project-img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 991px) {
+  .portfolio .row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .portfolio .row {
+    grid-template-columns: 1fr !important;
+  }
+}
