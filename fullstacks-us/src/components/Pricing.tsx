@@ -194,7 +194,7 @@ export default function Pricing() {
                 <p className="text-gray-600">We establish clear KPIs and milestones upfront, with regular progress reports and quarterly reviews.</p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">What's included in the consultation?</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">What&apos;s included in the consultation?</h4>
                 <p className="text-gray-600">A comprehensive review of your current technology state, challenges, and recommendations for moving forward.</p>
               </div>
             </div>
