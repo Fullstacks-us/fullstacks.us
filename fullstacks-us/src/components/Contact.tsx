@@ -65,9 +65,9 @@ export default function Contact() {
               <div className="text-center py-8">
                 <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Message Sent!</h4>
-                <p className="text-gray-600 mb-4">
-                  Thank you for reaching out. We'll get back to you within 24 hours.
-                </p>
+                              <p className="text-gray-600 mb-4">
+                Thank you for reaching out. We&apos;ll get back to you within 24 hours.
+              </p>
                 <button
                   onClick={() => setIsSubmitted(false)}
                   className="text-blue-600 hover:text-blue-700 font-semibold"
