@@ -43,8 +43,12 @@ export default function FAQ() {
                 className="accordion-header"
                 onClick={() => toggleAccordion(index)}
               >
-                <span>{openAccordion === index ? '-' : '+'}</span>
-                <h3>{faq.question}</h3>
+                <div className="accordion-icon">
+                  <span>{openAccordion === index ? '-' : '+'}</span>
+                </div>
+                <div className="accordion-question">
+                  <h3>{faq.question}</h3>
+                </div>
               </div>
               {openAccordion === index && (
                 <div className="accordion-body">

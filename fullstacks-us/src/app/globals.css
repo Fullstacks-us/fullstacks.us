@@ -485,7 +485,7 @@ body {
   background: #333;
   cursor: pointer;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -498,8 +498,16 @@ body {
 .accordion-header span {
   font-size: 1.5rem;
   color: #00bfff;
-  position: absolute;
-  right: 1.5rem;
+}
+
+.accordion-icon {
+  flex-shrink: 0;
+  width: 30px;
+}
+
+.accordion-question {
+  flex: 1;
+  text-align: center;
 }
 
 .accordion-body {
