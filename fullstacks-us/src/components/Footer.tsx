@@ -1,5 +1,3 @@
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
-
 export default function Footer() {
   return (
     <div className="footer">
