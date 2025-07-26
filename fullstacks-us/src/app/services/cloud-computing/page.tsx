@@ -29,7 +29,7 @@ export default function CloudComputing() {
           <ol className="breadcrumb">
             <li className="breadcrumb-item"><Link href="/">Home</Link></li>
             <li className="breadcrumb-item"><Link href="/#service">Services</Link></li>
-            <li className="breadcrumb-item active" aria-current="page">3. Cloud Computing</li>
+            <li className="breadcrumb-item active" aria-current="page">Cloud Computing</li>
           </ol>
         </nav>
       </div>
