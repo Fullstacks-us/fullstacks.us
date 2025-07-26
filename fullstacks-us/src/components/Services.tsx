@@ -10,7 +10,7 @@ export default function Services() {
             We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
           </p>
         </div>
-        <div className="row">
+        <div className="row services-grid">
           {/* All 9 service cards here, unchanged */}
           <div className="col-lg-4 col-sm-6 mt-2">
             <Link href="/services/web-app-development" style={{ textDecoration: 'none', color: 'inherit' }}>

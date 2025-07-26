@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Portfolio() {
   return (
-    <div className="pt-5 pb-5">
+    <div className="pt-5 pb-5 portfolio">
       <div className="container">
         <div className="row">
           <div className="section-head-1 col-sm-12" style={{ textAlign: 'center' }}>
@@ -14,7 +14,9 @@ export default function Portfolio() {
               industry-relevant skill training that will help them<br /> in securing a better livelihood.
             </p>
           </div>
-          
+        </div>
+        
+        <div className="row">
           <div className="col-lg-4 col-sm-6">
             <a href="https://warbot.cloud" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="item">
