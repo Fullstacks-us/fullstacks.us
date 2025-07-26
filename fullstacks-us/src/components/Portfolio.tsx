@@ -89,16 +89,18 @@ export default function Portfolio() {
           </div>
 
           <div className="col-lg-4 col-sm-6">
-            <div className="item">
-              <span className="icon feature_box_col_three">
-                <Image className="project-img" src="/images/img3.jpg" alt="Future Project" width={300} height={200} />
-              </span>
-              <h6>Coming Soon</h6>
-              <p>
-                <b>Next innovative project in development</b><br />
-                We&apos;re constantly working on new and exciting projects. Stay tuned for our latest creation that will showcase cutting-edge technology and creative solutions.<br />
-              </p>
-            </div>
+            <a href="https://kmelody.live" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <div className="item">
+                <span className="icon feature_box_col_three">
+                  <Image className="project-img" src="/images/img3.jpg" alt="K Melody Live" width={300} height={200} />
+                </span>
+                <h6>K Melody Live</h6>
+                <p>
+                  <b>Music platform with VR world exploration</b><br />
+                  An innovative music platform that combines traditional music services with cutting-edge VR technology. Features include portfolio showcases, product collections, and immersive virtual reality experiences for music enthusiasts.<br />
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
