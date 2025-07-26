@@ -142,64 +142,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        .service-card {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-          cursor: pointer;
-          height: 100%;
-        }
-        
-        .service-card:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        }
-        
-        .item {
-          background: white;
-          padding: 30px;
-          border-radius: 10px;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-          margin-bottom: 20px;
-          height: 100%;
-        }
-        
-        .item h6 {
-          color: #333;
-          margin: 20px 0 15px 0;
-          font-weight: 600;
-        }
-        
-        .item p {
-          color: #666;
-          line-height: 1.6;
-          margin-bottom: 0;
-        }
-        
-        .icon {
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 2rem;
-          color: white;
-          margin: 0 auto 20px;
-        }
-        
-        .feature_box_col_one {
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        
-        .feature_box_col_two {
-          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-        }
-        
-        .feature_box_col_three {
-          background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-        }
-      `}</style>
     </div>
   );
 } 
