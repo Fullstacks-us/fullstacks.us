@@ -50,10 +50,10 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Get Started Today
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to accelerate your startup's technology strategy? Book a free consultation 
-            or get in touch to discuss your specific needs.
-          </p>
+                      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Ready to accelerate your startup&apos;s technology strategy? Book a free consultation 
+              or get in touch to discuss your specific needs.
+            </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
