@@ -414,7 +414,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 3rem;
-  background: black;
   margin: 0 auto;
   align-items: center;
 }
@@ -467,7 +466,7 @@ body {
 }
 
 .accordion-container {
-  max-width: 800px;
+  max-width: 772px;
   margin: 0 auto;
 }
 
