@@ -41,6 +41,7 @@ export default function FAQ() {
             <div key={index} className="accordion">
               <div 
                 className="accordion-header"
+                style={{padding: '1rem'}}
                 onClick={() => toggleAccordion(index)}
               >
                 <div className="accordion-icon">

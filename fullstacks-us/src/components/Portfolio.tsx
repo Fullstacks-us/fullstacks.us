@@ -5,11 +5,11 @@ export default function Portfolio() {
     <div className="pt-5 pb-5 portfolio">
       <div className="container">
         {/* Header section - separate from grid */}
-        <div className="section-head-1 col-sm-12" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h4 style={{ marginTop: '-5rem' }} id="portfolio">
+        <div className="section-head col-sm-12" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+          <h1 id="portfolio">
             <span>Our</span> Projects
-          </h4>
-          <p>
+          </h1>
+          <p style={{ color: '#333', fontSize: '1.1rem', lineHeight: '1.6' }}>
             The objective of Fullstacks US is to enable a large number of youth to take up <br />
             industry-relevant skill training that will help them<br /> in securing a better livelihood.
           </p>
