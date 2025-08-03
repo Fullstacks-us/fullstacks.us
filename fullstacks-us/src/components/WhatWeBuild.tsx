@@ -6,7 +6,7 @@ export default function WhatWeBuild() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">🚀 What We Build</h1>
         <p className="text-lg text-gray-600 mb-12">
-          We turn cloud infrastructure into client-ready SaaS products, dashboards, bots, and automation engines — built fast using tools like Supabase, Render, Vercel, and Docker. Here's what that looks like in action:
+          We turn cloud infrastructure into client-ready SaaS products, dashboards, bots, and automation engines — built fast using tools like Supabase, Render, Vercel, and Docker. Here&apos;s what that looks like in action:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
