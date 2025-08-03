@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Verification</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .check { color: green; }
+        .error { color: red; }
+        .test { margin: 10px 0; padding: 10px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>Theme System Verification</h1>
+    <div id="results"></div>
+    
+    <script>
+        function checkFile(path, description) {
+            fetch(path)
+                .then(response => {
+                    const result = document.createElement('div');
+                    result.className = 'test';
+                    if (response.ok) {
+                        result.innerHTML = `<span class="check">✓</span> ${description}`;
+                    } else {
+                        result.innerHTML = `<span class="error">✗</span> ${description} (${response.status})`;
+                    }
+                    document.getElementById('results').appendChild(result);
+                })
+                .catch(error => {
+                    const result = document.createElement('div');
+                    result.className = 'test';
+                    result.innerHTML = `<span class="error">✗</span> ${description} (Error: ${error.message})`;
+                    document.getElementById('results').appendChild(result);
+                });
+        }
+        
+        // Check all our new files
+        checkFile('css/themes.css', 'Themes CSS file exists');
+        checkFile('js/themes.js', 'Themes JavaScript file exists');
+        checkFile('theme-demo.html', 'Theme demo page exists');
+        checkFile('index.html', 'Main index page exists');
+        checkFile('THEMES_README.md', 'Theme documentation exists');
+    </script>
+</body>
+</html>
