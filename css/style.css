@@ -1361,3 +1361,25 @@ body{
             width: 100%;
         }
 }
+
+/* What We Build section styles */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.card-text {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.list-unstyled li {
+    padding: 0.25rem 0;
+    color: #9ca3af;
+}
